@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MediaMonks | How to be a Monk.</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/iphone.css">
+		<link rel="stylesheet" type="text/css" href="css/mobile.css">
+		<link rel="stylesheet" type="text/css" href="css/tablet.css">
+		<link rel="stylesheet" type="text/css" href="css/midStyle.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		
+	</head>
+	<body>
+		<div class="container">
+		<!--Monk Patience annimation start-->
+			<div class="intromonk">
+				<img src="assets/images/monk.png" alt="Monk image">
+				<div class="text-container">
+					<p class="beginning-text">Patience</p>
+					<p class="exclamation">! </p>
+					<p class="comma">, </p>
+					<p class="remaining-text">young padawan...</p>
+				</div>
+			</div>
+			<!--Monk Patience annimation end-->
+			<!--Slide screen start-->
+			<div class="chapter current-chapter">
+				<div class="chapter-title"><h1>We are breaking our vow <br> of silence</h1></div>
+				<div class="chapter-text">
+					<p>In January 2011, after a decade of digital, we opened the doors to our temple.</p>
+					<p>Follow our noble eightfold path to digital enlightenment here.</p>
+				</div>
+			</div>
+
+			<div class="chapter">
+				<div class="chapter-title"><h1>Talent is given true skill is earned</h1></div>				
+			</div>
+
+			<div class="chapter">
+				<div class="chapter-title"><h1>Be flexible to change and sturdy in conviction</h1></div>				
+			</div>
+
+			<div class="chapter">
+				<div class="chapter-title"><h1>Use many skills yet work as one</h1></div>				
+			</div>
+
+			<div class="chapter">
+				<div class="chapter-title"><h1>To master anything find interest in everything</h1></div>				
+			</div>
+
+			<div class="chapter">
+				<div class="chapter-title"><h1>Individuals flourish if culture and wisdom are shared</h1></div>				
+			</div>
+
+			<div class="chapter">
+				<div class="chapter-title"><h1>Train for perfection but aim for more</h1></div>				
+			</div>
+
+			<div class="chapter">
+				<div class="chapter-title"><h1>Take pride in your work but do not seek praise</h1></div>				
+			</div>
+
+			<div class="chapter">
+				<div class="chapter-title"><h1>Temporary sacrifice brings lasting results</h1></div>				
+			</div>
+			
+			<div class="chapter final-chapter">
+				<div class="chapter-title"><h1>Become a Monk</h1></div>
+				<div class="chapter-text">
+					<p>Interested in joining our monastery?</p>
+					<p>Check out our openings on <a href="https://www.mediamonks.com/careers">mediamonks.com/careers</a>.</p>
+				</div>
+				<ul>
+					<li><a href="mailto:hilversum@mediamonks.com" target="_blank"><img class="email" src="assets/images/envelope.svg" alt="Email">Mail ons</a></li>
+					<li><a href="https://www.facebook.com/mediamonks" target="_blank"><img class="facebook" src="assets/images/facebook.svg" alt="Facebook">Facebook</a></li>
+					<li><a href="https:www.mediamonks.com/twitter" target="_blank"><img class="twitter" src="assets/images/twitter.svg" alt="Twitter">Twitter</a></li>
+				</ul>
+			</div>
+			<!--Slide screen end-->
+			<!--Next & Previous button-->
+			<a class="prev" id="prev" onclick="sliderArrows(-1)"><div class="arrow-left"></div></a>
+			<a class="next" id="next" onclick="sliderArrows(1)"><div class="arrow-right"></div></a>
+				
+			<nav>
+				<table>
+					<tr>
+						<td onclick="slideChapter(0)"><span class="cell current-cell"></span></td>
+						<td onclick="slideChapter(1)"><span class="cell">1</span></td>
+						<td onclick="slideChapter(2)"><span class="cell">2</span></td>
+						<td onclick="slideChapter(3)"><span class="cell">3</span></td>
+						<td onclick="slideChapter(4)"><span class="cell">4</span></td>
+						<td onclick="slideChapter(5)"><span class="cell">5</span></td>
+						<td onclick="slideChapter(6)"><span class="cell">6</span></td>
+						<td onclick="slideChapter(7)"><span class="cell">7</span></td>
+						<td onclick="slideChapter(8)"><span class="cell">8</span></td>
+						<td onclick="slideChapter(9)"><span class="cell"></span></td>
+					</tr>
+				</table>
+			</nav>
+
+			<a href="https://www.mediamonks.com/">
+				<img class="logo" src="assets/images/logo.svg" alt=" logo">
+			</a>
+	
+		</div>
+	
+	</body>
+	<script src="js/script.js"></script>
+</html>
